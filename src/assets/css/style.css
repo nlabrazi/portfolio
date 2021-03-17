@@ -1,0 +1,56 @@
+@import 'components/about';
+@import 'components/education';
+@import 'components/experience';
+@import 'components/home';
+@import 'components/projects';
+@import 'components/sidebar';
+@import 'components/skills';
+
+
+/* GLOBAL */
+
+html, body {
+/*  height: 100%;*/
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+  /*font-family: "Custom", sans-serif;*/
+}
+
+h3 {
+  line-height: 3.212rem;
+  font-weight: 200;
+  font-size: 2.92rem;
+  margin: 1.46rem 0 1.168rem 0;
+  margin-bottom: 60px;
+  margin-top: 0;
+  padding: 30px 40px;
+  text-transform: uppercase;
+  color: #FFFFFF !important;
+}
+
+.banner-sections {
+  background-color: #008073 !important;
+}
+
+.main {
+  background: url(../../assets/images/bg.png) repeat;
+  padding: 0px 10px;
+  margin-left: 160px;               /* Same as the width of the sidenav */
+  /* font-size: 28px;                Increased text to enable scrolling */
+}
+
+.card {
+  border-radius: 2px;
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+
+.brown-text {
+  color: #795548 !important;
+}
+
+/*section {
+  height: 100%;
+}
+*/

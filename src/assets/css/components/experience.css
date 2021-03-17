@@ -1,0 +1,35 @@
+/* EXPERIENCE */
+
+#experience .container {
+  width: 860px;
+}
+
+#experience .card {
+  margin-bottom: 60px;
+}
+
+#experience .card-content .row {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+#experience .container .row {
+  margin-left: -0.75rem;
+  margin-right: -0.75rem;
+}
+
+#experience img {
+  max-height: 60px;
+}
+
+img.responsive-img, video.responsive-video {
+  max-width: 100%;
+  height: auto;
+}
+
+#experience .card .role {
+  font-size: 1.25rem;
+  position: absolute;
+  right: 38px;
+  top: 35px;
+}

@@ -1,0 +1,9 @@
+/* PROJECTS */
+
+#projects .card {
+  margin-bottom: 60px;
+}
+
+#projects .TopCard {
+  display: inline-flex;
+}
