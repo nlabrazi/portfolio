@@ -21,7 +21,7 @@ import Contact from "pages/Contact";
 const App = () => (
   <Router>
     <Navbar />
-    <div className="main">
+    <main>
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/about" component={About} />
@@ -32,7 +32,7 @@ const App = () => (
         <Route path="/misc" component={Misc} />
         <Route path="/contact" component={Contact} />
       </Switch>
-    </div>
+    </main>
   </Router>
 );
 

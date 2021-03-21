@@ -17,8 +17,7 @@ const ProjectCards = (props) => {
         <Card.Img variant="top" src={projectfont} />
         <Card.Body>
         <div className="TopCard">
-          <Card.Title>{props.title}</Card.Title>
-          <NavigationIcon color="#008073" onClick={handleClick} />
+          <Card.Title onClick={handleClick}>{props.title} - Détails<NavigationIcon color="#008073" /></Card.Title>
         </div>
           <Card.Text>
             {props.content}

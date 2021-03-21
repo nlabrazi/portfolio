@@ -1,5 +1,9 @@
 /* EDUCATION */
 
+#education {
+  height: 100vh;
+}
+
 .card-product {
   overflow: hidden;
   height: 150px;

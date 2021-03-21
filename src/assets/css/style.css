@@ -1,7 +1,9 @@
 @import 'components/about';
+@import 'components/contact';
 @import 'components/education';
 @import 'components/experience';
 @import 'components/home';
+@import 'components/misc';
 @import 'components/projects';
 @import 'components/sidebar';
 @import 'components/skills';
@@ -9,8 +11,8 @@
 
 /* GLOBAL */
 
-html, body {
-/*  height: 100%;*/
+html, body > #root > div {
+  height: 100vh;
 }
 
 html {
@@ -34,11 +36,12 @@ h3 {
   background-color: #008073 !important;
 }
 
-.main {
+main {
   background: url(../../assets/images/bg.png) repeat;
-  padding: 0px 10px;
+  height: 100%;
   margin-left: 160px;               /* Same as the width of the sidenav */
   /* font-size: 28px;                Increased text to enable scrolling */
+  /*padding: 0px 10px;*/
 }
 
 .card {

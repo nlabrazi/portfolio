@@ -2,7 +2,7 @@ import React from 'react';
 
 const Misc = () => {
   return (
-    <section id="awards" className="section scrollspy" data-aos="fade-down" data-aos-delay="175">
+    <section id="misc" className="section scrollspy" data-aos="fade-down" data-aos-delay="175">
         <h3 className="page-title white-text banner-sections">Miscellaneaous</h3>
         <div className="container">
           <div className="row">
