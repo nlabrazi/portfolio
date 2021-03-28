@@ -20,19 +20,23 @@ import Contact from "pages/Contact";
 
 const App = () => (
   <Router>
-    <Sidebar />
-    <main className="col bg-faded py-3 flex-grow-1">
-      <Switch>
-        <Route path="/" exact component={Home} />
-        <Route path="/about" component={About} />
-        <Route path="/experience" component={Experience} />
-        <Route path="/education" component={Education} />
-        <Route path="/projects" component={Projects} />
-        <Route path="/skills" component={Skills} />
-        <Route path="/misc" component={Misc} />
-        <Route path="/contact" component={Contact} />
-      </Switch>
-    </main>
+  <div className="container-fluid">
+    <div className="row wrapper min-vh-100 flex-column flex-sm-row">
+      <Sidebar />
+      <main className="col bg-faded py-3">
+        <Switch>
+          <Route path="/" exact component={Home} />
+          <Route path="/about" component={About} />
+          <Route path="/experience" component={Experience} />
+          <Route path="/education" component={Education} />
+          <Route path="/projects" component={Projects} />
+          <Route path="/skills" component={Skills} />
+          <Route path="/misc" component={Misc} />
+          <Route path="/contact" component={Contact} />
+        </Switch>
+      </main>
+    </div>
+  </div>
   </Router>
 );
 
