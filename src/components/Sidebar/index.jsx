@@ -11,17 +11,14 @@ import EmailIcon from 'mdi-react/EmailIcon';
 
 const Sidebar = () => {
   return (
-        <aside id="sidebar" className="col-12 col-sm-2 p-0 bg-dark flex-shrink-1">
-          <nav className="navbar navbar-expand-sm navbar-dark bg-dark align-items-start flex-sm-column flex-row">
-            <a className="navbar-brand" href="/"><i className="fa fa-bullseye fa-fw"></i> Brand</a>
+        <aside id="sidebar" className="col-12 col-sm-2 p-0 flex-shrink-1">
+          <nav className="navbar navbar-expand-sm align-items-start flex-sm-column flex-row">
+            <Link className="logo navbar-brand" to="/">Nabil Labrazi</Link>
             <a href className="navbar-toggler" data-toggle="collapse" data-target=".sidebar">
               <span className="navbar-toggler-icon"></span>
             </a>
-            <div className="collapse navbar-collapse sidebar">
+            <div className="navbar-collapse sidebar collapse show">
               <ul className="flex-column navbar-nav w-100 justify-content-between">
-                <li className="nav-item">
-                  <Link className="logo" to="/">Nabil Labrazi</Link>
-                </li>
                 <li className="nav-item">
                   <Link to="/about"><AccountCircleIcon color="#008073" /> About</Link>
                 </li>

@@ -1,19 +1,11 @@
 /* SIDEBAR */
 
-/*#sidebar {
-  width: 170px;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-
+#sidebar {
   overflow-x: hidden;
-  padding-top: 20px;
-  padding-bottom: 60px;
   background-color: #FFF;
   z-index: 999;
   will-change: left;
-}*/
+}
 
 #sidebar a {
   padding: 6px 8px 6px 16px;
