@@ -1,8 +1,8 @@
 /* SIDEBAR */
 
 #sidebar {
-  width: 170px;
-  position: fixed;
+/*  width: 170px; */
+/*  position: fixed;*/
   z-index: 1;
   top: 0;
   left: 0;
@@ -18,7 +18,7 @@
 }
 
 #sidebar a {
-  padding: 6px 8px 6px 16px;
+/*  padding: 6px 8px 6px 16px;*/
   text-decoration: none;
   font-size: 25px;
   color: #818181;
@@ -29,24 +29,24 @@
   color: #f1f1f1;
 }
 
-#sidebar ul li a {
+/*#sidebar ul li a {
   font-size: 1rem;
   padding: 10px 0 12px;
-}
+}*/
 
 #sidebar ul li {
   transition: background-color 0.3s;
   list-style-type: none;
 }
 
-@media screen and (max-height: 450px) {
+/*@media screen and (max-height: 450px) {
   #sidebar {padding-top: 15px;}
   #sidebar a {font-size: 18px;}
-}
+}*/
 
-.logo {
+/*.logo {
   border-bottom: 1px solid #ddd;
   box-sizing: content-box;
   min-height: 90px;
   padding: 30px 30px 40px;
-}
+}*/

@@ -5,7 +5,7 @@
 @import 'components/home';
 @import 'components/misc';
 @import 'components/projects';
-@import 'components/sidebar';
+/*@import 'components/sidebar';*/
 @import 'components/skills';
 
 
@@ -39,7 +39,7 @@ h3 {
 main {
   background: url(../../assets/images/bg.png) repeat;
   height: 100%;
-  margin-left: 160px;               /* Same as the width of the sidenav */
+/*  margin-left: 160px;*/               /* Same as the width of the sidenav */
   /* font-size: 28px;                Increased text to enable scrolling */
   /*padding: 0px 10px;*/
 }

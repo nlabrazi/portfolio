@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'assets/css/style.css';
 
-import Navbar from "./components/Navbar";
+import Sidebar from "./components/Sidebar";
 
 import Home from "pages/Home";
 import About from "pages/About";
@@ -20,8 +20,8 @@ import Contact from "pages/Contact";
 
 const App = () => (
   <Router>
-    <Navbar />
-    <main>
+    <Sidebar />
+    <main className="col bg-faded py-3 flex-grow-1">
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/about" component={About} />
