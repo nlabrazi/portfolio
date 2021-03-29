@@ -23,7 +23,7 @@ const App = () => (
   <div className="container-fluid">
     <div className="row wrapper min-vh-100 flex-column flex-sm-row">
       <Sidebar />
-      <main className="col bg-faded py-3">
+      <main className="col bg-faded">
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/about" component={About} />
