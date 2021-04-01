@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
-import ReactCardFlip from 'react-card-flip';
 import { Card } from 'react-bootstrap';
+import ReactCardFlip from 'react-card-flip';
 import NavigationIcon from 'mdi-react/NavigationIcon';
-import projectfont from "assets/images/coding-project.jpeg"
 
 const ProjectCards = (props) => {
 
@@ -13,8 +12,10 @@ const ProjectCards = (props) => {
 
   return (
     <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
-      <Card>
-        <Card.Img variant="top" src={projectfont} />
+      <Card onClick={handleClick} >
+        <video autoPlay muted controls>
+          <source src={props.video} type="video/x-m4v" />
+        </video>
         <Card.Body>
         <div className="TopCard">
           <Card.Title onClick={handleClick}>{props.title} - Détails<NavigationIcon color="#008073" /></Card.Title>
@@ -24,7 +25,7 @@ const ProjectCards = (props) => {
           </Card.Text>
         </Card.Body>
       </Card>
-      <Card>
+      <Card onClick={handleClick} >
         <Card.Body>
           <Card.Title>{props.backTitle}</Card.Title>
           <Card.Text>

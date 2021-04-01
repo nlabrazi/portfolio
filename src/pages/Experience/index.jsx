@@ -3,14 +3,14 @@ import React from 'react';
 import dominos from "assets/images/dominos.png"
 import doctolib from "assets/images/doctolib.jpeg"
 
-import { Card } from 'react-bootstrap';
+import { Card, Container } from 'react-bootstrap';
 
 
 const Experience = () => {
   return (
     <section id="experience" className="section scrollspy" data-aos="fade-down" data-aos-delay="175">
     <h3 className="page-title white-text banner-sections">Experience</h3>
-    <div className="container">
+    <Container className="mt-5">
 
       <Card>
         <Card.Body>
@@ -25,7 +25,7 @@ const Experience = () => {
               </p>
             </div>
           </div>
-          <div className="role brown-text">Monitoring - Support/QA</div>
+          <div className="role brown-text">Monitoring - Support</div>
           <p>
             <em className="grey-text">Doctolib est une entreprise franco-allemande fondée en 2013 qui propose un service de gestion en ligne des consultations pour les professionnels de santé et un service de prise de rendez-vous en ligne pour les patients.</em>
           </p>
@@ -171,7 +171,7 @@ const Experience = () => {
         </Card.Footer>
       </Card>
 
-    </div>
+    </Container>
   </section>
   );
 };

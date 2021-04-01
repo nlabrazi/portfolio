@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { Container } from 'react-bootstrap';
+
 import html5 from "assets/images/html5.png";
 import jekyll from "assets/images/jekyll.png";
 import css3 from "assets/images/css3.png";
@@ -26,8 +28,8 @@ import obs from "assets/images/obs.png";
 const Skills = () => {
   return (
     <section id="skills" className="section scrollspy" data-aos="fade-down" data-aos-delay="175">
-        <h3 className="page-title white-text banner-sections">Skills</h3>
-        <div className="container">
+      <h3 className="page-title white-text banner-sections">Skills</h3>
+        <Container className="mt-5">
           <div className="card">
             <div className="card-content">
               <h4 className="brown-text light">HTML</h4>
@@ -143,8 +145,8 @@ const Skills = () => {
               </div>
             </div>
           </div>
-        </div>
-      </section>
+        </Container>
+    </section>
   );
 };
 

@@ -21,7 +21,7 @@ import Contact from "pages/Contact";
 const App = () => (
   <Router>
   <div className="container-fluid">
-    <div className="row wrapper min-vh-100 flex-column flex-sm-row">
+    <div className="row min-vh-100 flex-column flex-md-row">
       <Sidebar />
       <main className="col bg-faded">
         <Switch>

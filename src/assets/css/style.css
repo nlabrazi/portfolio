@@ -27,13 +27,14 @@ html {
 main {
   background: url(../../assets/images/bg.png) repeat;
   height: 100%;
-  padding: 0px 0px;
+  padding: 0px 0px !important;
 }
 
 h3 {
   line-height: 3.212rem;
   font-weight: 200;
   font-size: 2.92rem;
+  padding: 30px 40px;
   text-transform: uppercase;
   color: #FFFFFF !important;
 }
@@ -55,8 +56,3 @@ h3 {
 .brown-text {
   color: #795548 !important;
 }
-
-/*#sidebar {
-  position: fixed;
-  height: 100vh;
-}*/
