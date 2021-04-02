@@ -1,5 +1,10 @@
 /* MISCS */
 
 #misc {
-  height: 100vh;
+  /*height: 100vh;*/
+}
+
+#misc .card {
+  width: 30rem!important;
+  margin-bottom: 25px;
 }

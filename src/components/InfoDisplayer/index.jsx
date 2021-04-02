@@ -8,16 +8,16 @@ const InfoDisplayer = () => {
       <Typing speed={50}>
         Développeur Full-Stack Ruby on Rails/ReactJs,
         <Typing.Speed ms={20} />
-        ouvert à toute oportunités.
+         ouvert à toute oportunités.
       </Typing>
       <Typing>
-        <span>This span will get typed, then erased.</span>
-        <Typing.Backspace count={20} />
+        <span>Disponible CDI, CDD, Free-Lance pour toute opération Comm...</span>
+        <Typing.Backspace count={28} />
       </Typing>
 
       <Typing>
-        <span>This line will stay.</span>
-        <span>This line will get instantly removed after a 500 ms delay</span>
+        <span>En tant Junior Dev.</span>
+        <span> J'amènes également les croissants/chocoloatines pour tout le monde !</span>
         <Typing.Reset count={1} delay={500} />
       </Typing>
     </div>

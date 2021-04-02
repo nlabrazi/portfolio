@@ -24,18 +24,18 @@ const Misc = () => {
             </div>
             <div className="col s12 m6">
               <MiscCards
-                title="Video Games Fan"
-                backContent="Grand passionné de jeux vidéos"
-                footer="Tryharder, compétiteur et streamer (à l'ancienne) de l'extrème"
-                img={wow}
-              />
-            </div>
-            <div className="col s12 m6">
-              <MiscCards
                 title="Glob Trotters"
                 backContent="Passionné par les voyages"
                 footer="Voyages sur les 5 continents"
                 img={travel}
+              />
+            </div>
+            <div className="col s12 m6">
+              <MiscCards
+                title="Video Games Fan"
+                backContent="Grand passionné de jeux vidéos"
+                footer="Tryharder, compétiteur et streamer (à l'ancienne) de l'extrème"
+                img={wow}
               />
             </div>
             <div className="col s12 m6">

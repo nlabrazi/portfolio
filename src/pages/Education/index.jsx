@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import CardProduct from 'components/CardProduct';
+import CardEducation from 'components/CardEducation';
 
 import Thp from "assets/images/thp.png"
 import LeWagon from "assets/images/lewagon.png"
@@ -12,10 +12,46 @@ const Education = () => {
     <section id="education" className="section scrollspy" data-aos="fade-down" data-aos-delay="175">
       <h3 className="page-title white-text banner-sections">Education</h3>
       <Container>
-        <CardProduct title="The Hacking Project" description="Developpeur Web " strong="ReactJs / Redux" location="Paris (75)" date="2020" img={Thp} />
-        <CardProduct title="Le Wagon" description="Developpeur Web " strong="Ruby / Rails" location="Paris (75)" date="2020" img={LeWagon} />
-        <CardProduct title="Global Knowledge" description="Administration BDD " strong="SQL Server - MCSA"location="Rueil-Malmaison (92)" date="2020" img={Global} />
-        <CardProduct title="Lycée Saint Adjutor" description="BTS SIO " strong="Option SLAM : Conception et développement d'applications"location="Vernon (27)" date="2020" img={Adjutor} />
+        <CardEducation
+          title="The Hacking Project"
+          licence="Developpeur Web "
+          location="Paris (75)"
+          dateStart="2020"
+          dateEnd="2021"
+          description="The Hacking Project est une formation au code, à plein temps ouverte à tous et sans pré-requis"
+          skills="Ruby on Rails, ReactJs, Redux"
+          img={Thp}
+        />
+        <CardEducation
+          title="Le Wagon"
+          licence="Developpeur Web "
+          location="Paris (75)"
+          dateStart="2020"
+          dateEnd="2020"
+          description="Le Wagon est un 'coding bootcamp' qui enseigne à ses élèves le développement d'applications web 'from scratch'"
+          skills="Ruby on Rails, Javascript"
+          img={LeWagon}
+        />
+        <CardEducation
+          title="Global Knowledge"
+          licence="Administration BDD "
+          location="Rueil-Malmaison (92)"
+          dateStart="2020"
+          dateEnd="2020"
+          description="Formation Requêtes & Administration SQL Server 2016"
+          skills="SQL Server"
+          img={Global}
+        />
+        <CardEducation
+          title="Lycée Saint Adjutor"
+          licence="BTS SIO "
+          location="Vernon (27)"
+          dateStart="2020"
+          dateEnd="2020"
+          description="Conception et développement d'applications"
+          skills="C, C#, MySql"
+          img={Adjutor}
+        />
       </Container>
     </section>
   );

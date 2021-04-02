@@ -18,15 +18,17 @@ const About = () => {
     <section id="about" className="section scrollspy" data-aos="fade-down" data-aos-delay="175">
       <h3 className="page-title white-text banner-sections">About</h3>
       <Container fluid>
-        <CardGroup className="m-5 d-block">
-          <Card className="m-5 border-0 shadow" style={styles.card}>
-            <Row>
+        <CardGroup className="m-5 d-block card-group-about">
+          <Card className="m-5 border-0 shadow top-card-about" style={styles.card}>
+            <Row className="rowAbout">
               <Col>
                 <Card.Img src={homeCard} style={styles.cardImage} />
               </Col>
               <Col>
               <Card.Body>
                 <Card.Title as="h4" className="brown-text light" >Mais qui suis-je ?</Card.Title>
+                  <br></br>
+                  <br></br>
                 <Card.Text style={styles.cardText}>
                   Ayant obtenu mon premier PC à l'age de 6 ans (Amstrad CPC 464), l'informatique a pour moi toujours été une passion.
                   J'ai donc naturellement fais le choix d'en faire mon métier.
