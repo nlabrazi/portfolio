@@ -6,6 +6,7 @@ import videoCoach from "assets/videos/coach.mp4";
 import videoBatiment from "assets/videos/batiment.mp4";
 import videoSnake from "assets/videos/snake.mp4";
 import videoTelephone from "assets/videos/telephone.mp4";
+import videoMedium from "assets/videos/medium.mp4";
 
 const Projects = () => {
 
@@ -15,41 +16,61 @@ const Projects = () => {
       <Container className="mt-5">
         <Row>
           <Col>
-            <span className="card-title"><a href="http://www.coach-me.best/" className="teal-text hoverline">Coach Me</a></span>
             <ProjectCards
               title="Coach Me"
-              backContent="Application pour trouver le meilleur coach sportif près de chez soi"
+              list1="Ruby on Rails"
+              list2="Javascript"
+              list3="PostgreSql"
+              list4="Heroku"
+              content="Application pour trouver le meilleur coach sportif près de chez soi"
+              backTitle="Projet de fin de batch au wagon"
               video={videoCoach}
             />
           </Col>
           <Col>
-            <span className="card-title"><a href="http://letelephoneose.herokuapp.com/" className="teal-text hoverline">Le Telephone Ose</a></span>
             <ProjectCards
               title="Le Telephone Ose"
-              backContent="Application pour la chanteuse Evelyne Gallet"
+              list1="Ruby on Rails"
+              list2="Javascript"
+              list3="PostgreSql"
+              list4="Heroku"
+              content="Offrez-vous votre chanson préféré chanté au téléphone par un artiste, pour un moment unique et plein d'émotions."
+              backTitle="Projet de fin de session (fullstack) à THP "
               video={videoTelephone}
             />
           </Col>
           <Col>
-            <span className="card-title"><a href="http://nabst3r.com/" className="teal-text hoverline">Snake Game</a></span>
             <ProjectCards
               title="Snake Game"
-              backContent="Le célèbre jeu du SNAKE revisité par mes soins"
+              list1="Javascript"
+              list2="HTML"
+              list3="Css"
+              list4="GithubPages"
+              content="Le célèbre jeu du SNAKE revisité par mes soins"
+              backTitle="Application créée perso pour apprendre Javascript"
               video={videoSnake}
             />
           </Col>
-          </Row>
-          <Row>
           <Col>
-            <span className="card-title"><a href="https://na-labrazi.medium.com/" className="teal-text hoverline">Article Medium</a></span>
             <ProjectCards
-              title="Article Medium"
-              backContent="Article sur Medium qui retranscrit mon expérience à l'école THP"
+              title="Batiment & Travaux"
+              list1="Ruby on Rails"
+              list2="Javascript"
+              list3="PostgreSql"
+              list4="Heroku"
+              content="Application destinée au entrepreneurs souhaitant mieux gérer ses partenaires"
+              backTitle="Projet perso en cours"
               video={videoBatiment}
             />
           </Col>
-          <Col></Col>
-          <Col></Col>
+          <Col>
+            <ProjectCards
+              title="Article Medium"
+              content="Article sur Medium qui retranscrit mon expérience à l'école THP"
+              backTitle="Mon premier article Medium, déstiné à valider ma 'mission' à THP"
+              video={videoMedium}
+            />
+          </Col>
         </Row>
       </Container>
     </section>

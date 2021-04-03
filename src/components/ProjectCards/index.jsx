@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Card } from 'react-bootstrap';
 import ReactCardFlip from 'react-card-flip';
-import NavigationIcon from 'mdi-react/NavigationIcon';
 
 const ProjectCards = (props) => {
 
@@ -13,13 +12,13 @@ const ProjectCards = (props) => {
   return (
     <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
       <Card onClick={handleClick} >
-        <video autoPlay muted controls>
+        <video autoPlay muted loop>
           <source src={props.video} type="video/x-m4v" />
         </video>
         <Card.Body>
-        <div className="TopCard">
-          <Card.Title onClick={handleClick}>{props.title} - Détails<NavigationIcon color="#008073" /></Card.Title>
-        </div>
+          <div className="TopCard">
+            <Card.Title onClick={handleClick}>{props.title}</Card.Title>
+          </div>
           <Card.Text>
             {props.content}
           </Card.Text>
@@ -30,7 +29,12 @@ const ProjectCards = (props) => {
           <Card.Title>{props.backTitle}</Card.Title>
           <Card.Text>
             {props.backContent}
-            <NavigationIcon color="#008073" onClick={handleClick} />
+            <ul>
+              <li>{props.list1}</li>
+              <li>{props.list2}</li>
+              <li>{props.list3}</li>
+              <li>{props.list4}</li>
+            </ul>
           </Card.Text>
         </Card.Body>
       </Card>

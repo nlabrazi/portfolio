@@ -82,33 +82,31 @@ const Experience = () => {
           <p>
             <em className="grey-text">Domino's Pizza est une franchise internationale de restauration rapide, principalement de préparation et de livraison de pizza. Domino’s Pizza compte aujourd'hui, plus de 17 000 points de vente dans soixante pays.</em>
           </p>
-          <h6>Develop Product</h6>
+          <h6>Taches :</h6>
           <ul>
             <li>
-              Esse nostrud culpa esse irure ut aute elit adipisicing amet et consequat dolore quis quis officia irure non.
+              Diagnostique de pannes et résolution (niveau 3)
             </li>
             <li>
-              Ut sunt consectetur et anim labore do non quis dolore dolore mollit velit in voluptate reprehenderit excepteur.
+              Analyse et maintenance de base de données
             </li>
             <li>
-              Veniam reprehenderit commodo ut non ut dolor consectetur cupidatat voluptate ex non magna sint commodo in.
+              Développement SQL
             </li>
-            <li>Sit ut non magna culpa dolore aute ex in minim cillum dolore laborum aliqua consectetur.</li>
             <li>
-              Tools: Ruby, Rails, PostgreSQL // React, JS, jQuery // Sass //
-              HTML, JSX
+              Création & mise en place d'outils d'amélioration des tâches opératoires
             </li>
           </ul>
-          <h6>Accomplishments</h6>
+          <h6>Tools / Language :</h6>
           <ul>
             <li>
-              Magna non ut non do amet enim nostrud irure ut.
+              Active Directory, Exchange...
             </li>
             <li>
-              Dolor fugiat ut officia qui excepteur eu in duis velit qui deserunt labore in esse enim.
+              BlackBerry Server
             </li>
             <li>
-              Deserunt in elit et aliqua ut cillum eu deserunt aliqua aliqua cupidatat dolor pariatur.
+              SQL Server 2016
             </li>
           </ul>
         </div>
@@ -135,39 +133,37 @@ const Experience = () => {
           <p>
             <em className="grey-text">Domino's Pizza est une franchise internationale de restauration rapide, principalement de préparation et de livraison de pizza. Domino’s Pizza compte aujourd'hui, plus de 17 000 points de vente dans soixante pays.</em>
           </p>
-          <h6>Develop Product</h6>
+          <h6>Taches :</h6>
           <ul>
             <li>
-              Reprehenderit aute eu laboris mollit excepteur sunt et sint excepteur irure cupidatat ex nulla.
+              Diagnostique de pannes et résolution (niveau 1 & 2)
             </li>
             <li>
-              Eiusmod laboris minim irure pariatur dolor elit nisi consequat ut.
+              Préparation, intégration & installation de postes utilisateurs.
             </li>
             <li>
-              Ullamco et in labore voluptate non adipisicing ut irure labore fugiat.
+              Administration système.
             </li>
-            <li>Mollit cupidatat eu laborum deserunt pariatur ea non aute deserunt in ut cupidatat dolor est ut proident amet ad.</li>
             <li>
-              Tools: Ruby, Rails, PostgreSQL // React, JS, jQuery // Sass //
-              HTML, JSX
+              Développement SQL
             </li>
           </ul>
-          <h6>Accomplishments</h6>
+          <h6>Tools / Language :</h6>
           <ul>
             <li>
-              Id enim sed eiusmod in consequat ut aute quis non laborum mollit incididunt voluptate.
+              Active Directory, Exchange...
             </li>
             <li>
-              Lorem ipsum excepteur in cillum fugiat dolor esse irure reprehenderit est incididunt dolor.
+              BlackBerry Server
             </li>
             <li>
-              Aliqua non nostrud anim officia do ex excepteur qui culpa sed in sit anim laborum eiusmod occaecat cillum ut.
+              SQL Server 2012
             </li>
           </ul>
         </div>
         </Card.Body>
         <Card.Footer>
-          <span>Jan 2021 - Present | Paris, FR</span>
+          <span>2012 - 2014 | Issy-lesMoulineaux, FR</span>
         </Card.Footer>
       </Card>
 

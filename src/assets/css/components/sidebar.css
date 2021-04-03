@@ -41,7 +41,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  #sidebar a{
+  #sidebar a {
     display: inline;
   }
   .sidebar-list {

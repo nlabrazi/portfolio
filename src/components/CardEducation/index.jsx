@@ -1,25 +1,30 @@
 import React from 'react';
+import { Card } from 'react-bootstrap';
 
 const CardEducation = (props) => {
 
   return (
-    <div className="card-education">
-      <img alt="cardimg" src={props.img} />
-      <div className="card-education-infos">
-        <h4 className="brown-text light">{props.title}</h4>
+    <Card className="card-education">
+      <Card.Header>{props.title}</Card.Header>
+      <Card.Body>
+        <div className="img">
+          <img alt="cardimg" src={props.img} />
+        </div>
+        <div className="details">
           <ul>
             <li>{props.dateStart} - {props.dateEnd}</li>
             <li>{props.location}</li>
             <li>{props.licence}</li>
           </ul>
-      </div>
-      <div className="card-education-school">
-        <ul>
-          <li>{props.description}</li>
-          <li>Languages : <strong>{props.skills}</strong></li>
-        </ul>
-      </div>
-    </div>
+        </div>
+        <div className="other">
+          <ul>
+            <li>{props.description}</li>
+            <li>Languages : <strong>{props.skills}</strong></li>
+          </ul>
+        </div>
+      </Card.Body>
+    </Card>
   );
 };
 
