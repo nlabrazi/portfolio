@@ -82,7 +82,7 @@ const Experience = () => {
           <p>
             <em className="grey-text">Domino's Pizza est une franchise internationale de restauration rapide, principalement de préparation et de livraison de pizza. Domino’s Pizza compte aujourd'hui, plus de 17 000 points de vente dans soixante pays.</em>
           </p>
-          <h6>Taches :</h6>
+          <h6>Tâches :</h6>
           <ul>
             <li>
               Diagnostique de pannes et résolution (niveau 3)
@@ -97,13 +97,13 @@ const Experience = () => {
               Création & mise en place d'outils d'amélioration des tâches opératoires
             </li>
           </ul>
-          <h6>Tools / Language :</h6>
+          <h6>Outils / Langages :</h6>
           <ul>
             <li>
-              Active Directory, Exchange...
+              ETL / Web-App / Web-Server (Aws / Azure)
             </li>
             <li>
-              BlackBerry Server
+              Active Directory, Exchange...
             </li>
             <li>
               SQL Server 2016
@@ -133,22 +133,22 @@ const Experience = () => {
           <p>
             <em className="grey-text">Domino's Pizza est une franchise internationale de restauration rapide, principalement de préparation et de livraison de pizza. Domino’s Pizza compte aujourd'hui, plus de 17 000 points de vente dans soixante pays.</em>
           </p>
-          <h6>Taches :</h6>
+          <h6>Tâches :</h6>
           <ul>
             <li>
               Diagnostique de pannes et résolution (niveau 1 & 2)
             </li>
             <li>
-              Préparation, intégration & installation de postes utilisateurs.
+              Préparation, intégration & installation de postes utilisateurs
             </li>
             <li>
-              Administration système.
+              Administration système
             </li>
             <li>
               Développement SQL
             </li>
           </ul>
-          <h6>Tools / Language :</h6>
+          <h6>Outils / Langages :</h6>
           <ul>
             <li>
               Active Directory, Exchange...

@@ -20,7 +20,7 @@ const CardEducation = (props) => {
         <div className="other">
           <ul>
             <li>{props.description}</li>
-            <li>Languages : <strong>{props.skills}</strong></li>
+            <li>Langages : <strong>{props.skills}</strong></li>
           </ul>
         </div>
       </Card.Body>

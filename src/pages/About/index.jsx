@@ -30,14 +30,14 @@ const About = () => {
                   <br></br>
                   <br></br>
                 <Card.Text style={styles.cardText}>
-                  Ayant obtenu mon premier PC à l'age de 6 ans (Amstrad CPC 464), l'informatique a pour moi toujours été une passion.
-                  J'ai donc naturellement fais le choix d'en faire mon métier.
+                  Ayant obtenu mon premier PC à l'âge de 6 ans (Amstrad CPC 464), l'informatique a pour moi toujours été une passion.
+                  J'ai donc naturellement choisi d'en faire mon métier.
                   <br></br>
                   <br></br>
-                  En tant que développeur Web, j'aime utiliser mon souci du détail obsessionnel,
+                  En tant que développeur Web, j'aime utiliser mon souci du détail obsessionnel
                   pour accomplir chacune des missions qui me sont proposées.
-                  Impatient de pouvoir ajouter ma touche personnelle ainsi que mon enérgie à la concrétisation de projets.
-                  Je serai ravi de faire parti de vo(s)tre futur(s) aventure(s).
+                  Impatient de pouvoir ajouter ma touche personnelle ainsi que mon énergie à la concrétisation de projets.
+                  Je serai ravi de faire parti de vo(s)tre future(s) aventure(s).
                 </Card.Text>
               </Card.Body>
               </Col>

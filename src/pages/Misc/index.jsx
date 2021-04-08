@@ -34,7 +34,7 @@ const Misc = () => {
               <MiscCards
                 title="Video Games Fan"
                 backContent="Grand passionné de jeux vidéos"
-                footer="Tryharder, compétiteur et streamer (à l'ancienne) de l'extrème"
+                footer="Tryharder, compétiteur de l'extrème ainsi et streamer (avant)"
                 img={wow}
               />
             </div>
@@ -42,7 +42,7 @@ const Misc = () => {
               <MiscCards
                 title="Cinéma Fan"
                 backContent="A l'époque où l'on pouvait sortir"
-                footer="Epoque révolue merci confinement..."
+                footer="Epoque révolue, merci confinement..."
                 img={movies}
               />
             </div>

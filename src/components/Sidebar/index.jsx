@@ -20,7 +20,7 @@ const Sidebar = () => {
         <li><Link to="/projects"><WebIcon color="#008073" /><span> Projects</span></Link></li>
         <li><Link to="/skills"><EqualizerIcon color="#008073" /><span> Skills</span></Link></li>
         <li><Link to="/education"><SchoolIcon color="#008073" /><span> Education</span></Link></li>
-        <li><Link to="/misc"><ControllerClassicIcon color="#008073" /><span> Misc</span></Link></li>
+        <li><Link to="/misc"><ControllerClassicIcon color="#008073" /><span> Hobbies</span></Link></li>
         <li><Link to="/contact"><EmailIcon color="#008073" /><span> Contact</span></Link></li>
       </ul>
     </nav>

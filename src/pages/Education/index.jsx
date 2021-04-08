@@ -15,7 +15,7 @@ const Education = () => {
       <Container className="mt-5">
         <CardEducation
           title="The Hacking Project"
-          licence="Developpeur Web "
+          licence="Développeur Web "
           location="Paris (75)"
           dateStart="09/2020"
           dateEnd="04/2021"
@@ -25,7 +25,7 @@ const Education = () => {
         />
         <CardEducation
           title="Le Wagon"
-          licence="Developpeur Web "
+          licence="Développeur Web "
           location="Paris (75)"
           dateStart="04/2020"
           dateEnd="07/2020"

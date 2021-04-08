@@ -23,18 +23,18 @@ const Projects = () => {
               list3="PostgreSql"
               list4="Heroku"
               content="Application pour trouver le meilleur coach sportif près de chez soi"
-              backTitle="Projet de fin de batch au wagon"
+              backTitle="Projet de fin de batch au Wagon"
               video={videoCoach}
             />
           </Col>
           <Col>
             <ProjectCards
-              title="Le Telephone Ose"
+              title="Le Téléphone Ose"
               list1="Ruby on Rails"
               list2="Javascript"
               list3="PostgreSql"
               list4="Heroku"
-              content="Offrez-vous votre chanson préféré chanté au téléphone par un artiste, pour un moment unique et plein d'émotions."
+              content="Offrez-vous votre chanson préférée chanté au téléphone par un artiste, pour un moment unique et plein d'émotions"
               backTitle="Projet de fin de session (fullstack) à THP "
               video={videoTelephone}
             />
@@ -53,12 +53,12 @@ const Projects = () => {
           </Col>
           <Col>
             <ProjectCards
-              title="Batiment & Travaux"
+              title="Bâtiment & Travaux"
               list1="Ruby on Rails"
               list2="Javascript"
               list3="PostgreSql"
               list4="Heroku"
-              content="Application destinée au entrepreneurs souhaitant mieux gérer ses partenaires"
+              content="Application destinée aux entrepreneurs souhaitant mieux gérer leurs partenaires"
               backTitle="Projet perso en cours"
               video={videoBatiment}
             />
