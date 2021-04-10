@@ -29,39 +29,37 @@ const Experience = () => {
           <p>
             <em className="grey-text">Doctolib est une entreprise franco-allemande fondée en 2013 qui propose un service de gestion en ligne des consultations pour les professionnels de santé et un service de prise de rendez-vous en ligne pour les patients.</em>
           </p>
-          <h6>Develop Product</h6>
+          <h6>Tâches principales :</h6>
           <ul>
             <li>
-              Aute incididunt laboris dolore id eiusmod id officia laborum.
+              Monitoring des environements de production et testing (Proxy, Tunnel VPN, Raspberry...)
             </li>
             <li>
-              Sunt proident qui cupidatat nostrud aliquip dolor cupidatat ullamco elit duis aute nostrud ut fugiat non duis.
+              Diagnostique de pannes et résolution (niveau 3)
             </li>
             <li>
-              Consectetur nostrud sint ut fugiat in amet adipisicing aliquip ut eiusmod dolor culpa sed eu.
+              Suivis des nouvelles features avec PO / PM / Dev
             </li>
-            <li>In ut commodo dolor nostrud ut qui veniam adipisicing elit laborum consectetur esse laborum deserunt sed.</li>
             <li>
-              Tools: Ruby, Rails, PostgreSQL // React, JS, jQuery // Sass //
-              HTML, JSX
+              Mise en place de procédures de check & automatisations des monkeys tasks
             </li>
           </ul>
-          <h6>Accomplishments</h6>
+          <h6>Outils / Langages :</h6>
           <ul>
             <li>
-              Sit ex excepteur do nostrud dolore et consectetur magna occaecat officia.
+              JIRA, Zendesk
             </li>
             <li>
-              Culpa nulla id exercitation ut magna quis irure duis in adipisicing est voluptate consequat do tempor ut officia.
+              Grafana, Kibana, Datadogs, NewRelic
             </li>
             <li>
-              Occaecat laboris non nisi enim magna adipisicing tempor anim ut.
+              Ruby, Javascript, PostgreSQL
             </li>
           </ul>
         </div>
         </Card.Body>
         <Card.Footer>
-          <span>Jan 2021 - Present | Paris, FR</span>
+          <span>Oct 2017 - Jan 2020 | Paris (75)</span>
         </Card.Footer>
       </Card>
 
@@ -82,16 +80,16 @@ const Experience = () => {
           <p>
             <em className="grey-text">Domino's Pizza est une franchise internationale de restauration rapide, principalement de préparation et de livraison de pizza. Domino’s Pizza compte aujourd'hui, plus de 17 000 points de vente dans soixante pays.</em>
           </p>
-          <h6>Tâches :</h6>
+          <h6>Tâches principales :</h6>
           <ul>
             <li>
               Diagnostique de pannes et résolution (niveau 3)
             </li>
             <li>
-              Analyse et maintenance de base de données
+              Analyse, insertions et maintenance de base de données
             </li>
             <li>
-              Développement SQL
+              Développement SQL (Stored Proc, data)
             </li>
             <li>
               Création & mise en place d'outils d'amélioration des tâches opératoires
@@ -103,7 +101,7 @@ const Experience = () => {
               ETL / Web-App / Web-Server (Aws / Azure)
             </li>
             <li>
-              Active Directory, Exchange...
+              NewRelic, Active Directory, Exchange...
             </li>
             <li>
               SQL Server 2016
@@ -112,7 +110,7 @@ const Experience = () => {
         </div>
         </Card.Body>
         <Card.Footer>
-          <span>Jan 2021 - Present | Paris, FR</span>
+          <span>Jan 2015 - Oct 2017 | Gennevilliers (92)</span>
         </Card.Footer>
       </Card>
 
@@ -133,7 +131,7 @@ const Experience = () => {
           <p>
             <em className="grey-text">Domino's Pizza est une franchise internationale de restauration rapide, principalement de préparation et de livraison de pizza. Domino’s Pizza compte aujourd'hui, plus de 17 000 points de vente dans soixante pays.</em>
           </p>
-          <h6>Tâches :</h6>
+          <h6>Tâches principales :</h6>
           <ul>
             <li>
               Diagnostique de pannes et résolution (niveau 1 & 2)
@@ -163,7 +161,7 @@ const Experience = () => {
         </div>
         </Card.Body>
         <Card.Footer>
-          <span>2012 - 2014 | Issy-lesMoulineaux, FR</span>
+          <span>Dec 2012 - Dec 2014 | Issy-lesMoulineaux (92)</span>
         </Card.Footer>
       </Card>
 

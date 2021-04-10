@@ -11,14 +11,14 @@ import labagar from 'assets/images/labagar.jpg';
 const Misc = () => {
   return (
     <section id="misc" className="section scrollspy" data-aos="fade-down" data-aos-delay="175">
-        <h3 className="page-title white-text banner-sections">Miscellaneaous</h3>
+        <h3 className="page-title white-text banner-sections">Hobbies</h3>
         <Container className="mt-5">
           <CardGroup>
             <div className="col s12 m6">
               <MiscCards
                 title="Muay Thaï Fan"
                 backContent="Pratiquant de boxe thaïlandaise"
-                footer="Entrainement chez KemMuayThai Gym (2017)"
+                footer="Entrainement au KemMuayThai Gym - Thaïlande (2017)"
                 img={labagar}
               />
             </div>
