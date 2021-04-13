@@ -41,5 +41,5 @@ const App = () => (
   </Router>
 );
 
-hotjar.initialize(2346482);
+hotjar.initialize(2346498);
 ReactDOM.render(<App />, document.getElementById("root"));
