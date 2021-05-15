@@ -21,7 +21,7 @@ const Contact = () => {
               </p>
               <p>
                 <Icon color="#008073" path={mdiLinkedin} size={1} />
-                <a aria-label="Nabil on LinkedIn" href="https://fr.linkedin.com/in/nabil-labrazi-a0a97a1a6" className="hoverline"> https://fr.linkedin.com/in/nabil-labrazi-a0a97a1a6</a>
+                <a aria-label="Nabil on LinkedIn" href="https://fr.linkedin.com/in/nabil-labrazi" className="hoverline"> https://fr.linkedin.com/in/nabil-labrazi</a>
               </p>
             </Card.Body>
           </Card>
