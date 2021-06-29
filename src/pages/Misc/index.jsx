@@ -41,8 +41,8 @@ const Misc = () => {
             <div className="col s12 m6">
               <MiscCards
                 title="Cinéma Fan"
-                backContent="A l'époque où l'on pouvait sortir"
-                footer="Epoque révolue, merci confinement..."
+                backContent="Merci Netflix & cie"
+                footer="Du classique et du plus récent"
                 img={movies}
               />
             </div>
