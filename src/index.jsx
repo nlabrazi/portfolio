@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { hotjar } from 'react-hotjar';
 
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'assets/css/style.css';
@@ -25,16 +25,16 @@ const App = () => (
     <div className="row min-vh-100 flex-column flex-md-row">
       <Sidebar />
       <main className="col bg-faded">
-        <Switch>
-          <Route path="/" exact component={Home} />
-          <Route path="/about" component={About} />
-          <Route path="/experience" component={Experience} />
-          <Route path="/education" component={Education} />
-          <Route path="/projects" component={Projects} />
-          <Route path="/skills" component={Skills} />
-          <Route path="/misc" component={Misc} />
-          <Route path="/contact" component={Contact} />
-        </Switch>
+        <Routes>
+          <Route path="/" exact element={ <Home/> } />
+          <Route path="/about" element={ <About/> } />
+          <Route path="/experience" element={ <Experience/> } />
+          <Route path="/education" element={ <Education/> } />
+          <Route path="/projects" element={ <Projects/> } />
+          <Route path="/skills" element={ <Skills/> } />
+          <Route path="/misc" element={ <Misc/> } />
+          <Route path="/contact" element={ <Contact/> } />
+        </Routes>
       </main>
     </div>
   </div>
