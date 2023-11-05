@@ -1,5 +1,6 @@
 import React from 'react';
 
+import ubisoft from "assets/images/ubisoft.png"
 import dominos from "assets/images/dominos.png"
 import doctolib from "assets/images/doctolib.jpeg"
 
@@ -11,6 +12,60 @@ const Experience = () => {
     <section id="experience" className="section scrollspy" data-aos="fade-down" data-aos-delay="175">
     <h3 className="page-title white-text banner-sections">Experience</h3>
     <Container className="mt-5">
+
+    <Card>
+        <Card.Body>
+        <div className="card-content">
+          <div className="row">
+            <div className="col s12 m2">
+              <a href="https://www.ubisoft.com/"><img alt="Ubisoft logo" src={ubisoft} className="responsive-img center-block"/></a>
+            </div>
+            <div className="col s12 m10">
+              <p>
+                <span className="card-title"><a href="https://www.ubisoft.com/" className="teal-text hoverline">Ubisoft</a></span>
+              </p>
+            </div>
+          </div>
+          <div className="role brown-text">Tools Specialist - Support</div>
+          <p>
+            <em className="grey-text">Ubisoft est une entreprise française de développement, d'édition et de distribution de jeux vidéo, elle est détenteur de nombreuses franchises à succès telles que Rayman, Les Lapins Crétins, Prince of Persia, Assassin's Creed, Far Cry, Watch Dogs, Just Dance, TrackMania et Tom Clancy's. </em>
+          </p>
+          <h6>Tâches principales :</h6>
+          <ul>
+            <li>
+              Monitoring des environements de production et staging
+            </li>
+            <li>
+              Résolution incidents
+            </li>
+            <li>
+              Suivis des nouvelles features avec PM
+            </li>
+            <li>
+              Développement de nouvelles fonctionnalités
+            </li>
+            <li>
+              Mise à jour guides et documentations
+            </li>
+          </ul>
+          <h6>Outils / Langages :</h6>
+          <ul>
+            <li>
+              JIRA
+            </li>
+            <li>
+              Grafana, Kibana, Datadogs
+            </li>
+            <li>
+              NodeJs, Angular, PostgreSQL
+            </li>
+          </ul>
+        </div>
+        </Card.Body>
+        <Card.Footer>
+          <span>Sept 2021 - Today | Paris (75)</span>
+        </Card.Footer>
+      </Card>
 
       <Card>
         <Card.Body>
@@ -35,7 +90,7 @@ const Experience = () => {
               Monitoring des environements de production et testing (Proxy, Tunnel VPN, Raspberry...)
             </li>
             <li>
-              Diagnostique de pannes et résolution (niveau 3)
+              Résolution incidents (niveau 3)
             </li>
             <li>
               Suivis des nouvelles features avec PO / PM / Dev
@@ -83,7 +138,7 @@ const Experience = () => {
           <h6>Tâches principales :</h6>
           <ul>
             <li>
-              Diagnostique de pannes et résolution (niveau 3)
+              Résolution incidents (niveau 3)
             </li>
             <li>
               Analyse, insertions et maintenance de base de données
@@ -134,7 +189,7 @@ const Experience = () => {
           <h6>Tâches principales :</h6>
           <ul>
             <li>
-              Diagnostique de pannes et résolution (niveau 1 & 2)
+              Résolution incidents (niveau 1 & 2)
             </li>
             <li>
               Préparation, intégration & installation de postes utilisateurs
