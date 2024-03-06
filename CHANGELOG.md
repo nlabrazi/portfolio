@@ -1,10 +1,16 @@
 # Changelog
 
-## v1.0.0
+## v1.5.0
 
-### Added or Changed
-- Added Ubisoft experience
+### Added
+- Fix errors console about ul/p
+
+### Updated
+ - Added this section :D
+ - Responsive done for :
+ - Hobies, Homepage and Projects (ALMOST)
 
 ### Removed
-
-- Removed Heroku storage
+- Removed outdated/unused package :
+- react-typing
+- react-hotjar
