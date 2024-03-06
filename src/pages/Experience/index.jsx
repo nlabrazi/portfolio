@@ -54,7 +54,7 @@ const Experience = () => {
               JIRA
             </li>
             <li>
-              Grafana, Kibana, Datadogs
+              Grafana, Kibana, Datadog
             </li>
             <li>
               NodeJs, Angular, PostgreSQL
@@ -81,9 +81,9 @@ const Experience = () => {
             </div>
           </div>
           <div className="role brown-text">Monitoring - Support</div>
-          <p>
+          <div>
             <em className="grey-text">Doctolib est une entreprise franco-allemande fondée en 2013 qui propose un service de gestion en ligne des consultations pour les professionnels de santé et un service de prise de rendez-vous en ligne pour les patients.</em>
-          </p>
+          </div>
           <h6>Tâches principales :</h6>
           <ul>
             <li>
@@ -105,7 +105,7 @@ const Experience = () => {
               JIRA, Zendesk
             </li>
             <li>
-              Grafana, Kibana, Datadogs, NewRelic
+              Grafana, Kibana, Datadog, NewRelic
             </li>
             <li>
               Ruby, Javascript, PostgreSQL

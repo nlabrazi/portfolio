@@ -5,6 +5,18 @@
 }
 
 #misc .card {
-  width: 30rem!important;
+  max-width: 30rem;
   margin-bottom: 25px;
+}
+
+@media (max-width: 768px) {
+  #misc .card {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  #misc .card {
+    max-width: 100%;
+  }
 }

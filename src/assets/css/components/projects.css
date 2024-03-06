@@ -7,3 +7,15 @@
 #projects .TopCard {
   display: inline-flex;
 }
+
+@media (max-width: 880px) {
+  #projects .TopCard {
+    display: block;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1169px) {
+  #projects .card {
+    margin-bottom: 30px; /* Ajuster la marge entre les cartes pour cette plage de largeurs */
+  }
+}

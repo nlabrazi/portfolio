@@ -66,6 +66,10 @@ const Projects = () => {
           <Col>
             <ProjectCards
               title="Article Medium"
+              list1="empty"
+              list2="empty"
+              list3="empty"
+              list4="empty"
               content="Article sur Medium qui retranscrit mon expérience à l'école THP"
               backTitle="Mon premier article Medium, déstiné à valider ma 'mission' à THP"
               video={videoMedium}
