@@ -18,7 +18,7 @@ const Misc = () => {
               <MiscCards
                 title="Muay Thaï Fan"
                 backContent="Pratiquant de boxe thaïlandaise"
-                footer="Entrainement au KemMuayThai Gym - Thaïlande (2017)"
+                footer="Entrainement au Sutaï MuayThai Gym - Thaïlande (2019)"
                 img={labagar}
               />
             </div>
